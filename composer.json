@@ -1,0 +1,24 @@
+{
+    "name": "php-etl/api-runtime",
+    "description": "This library allows you to use the api runtime",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Grégory Planchat",
+            "email": "gregory@kiboko.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Kiboko\\Component\\Runtime\\Api\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "php-etl/pipeline-contracts": "^0.3.0",
+        "psr/container": "^1.0",
+        "php-etl/hook-runtime": "0.1.x-dev"
+    }
+}
