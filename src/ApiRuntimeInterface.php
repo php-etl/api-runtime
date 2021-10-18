@@ -6,7 +6,7 @@ use Kiboko\Component\Runtime\Hook\HookRuntimeInterface;
 
 interface ApiRuntimeInterface
 {
-    public function addHook(string $hookName, HookRuntimeInterface $hookRuntime): self;
+    public function addHookRuntime(string $hookName, HookRuntimeInterface $hookRuntime): self;
     public function feed(string $hookName, ...$data): self;
     public function run(string $hookName): int;
 }

@@ -10,7 +10,7 @@ class ApiRuntime implements ApiRuntimeInterface
 {
     private array $hookRuntimes = [];
 
-    public function addHook(string $hookName, HookRuntimeInterface $hookRuntime): self
+    public function addHookRuntime(string $hookName, HookRuntimeInterface $hookRuntime): self
     {
         $this->hookRuntimes[$hookName] = $hookRuntime;
         return $this;
