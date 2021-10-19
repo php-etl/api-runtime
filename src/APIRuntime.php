@@ -16,7 +16,7 @@ class APIRuntime implements ApiRuntimeInterface
         return $this;
     }
 
-    public function run(string $hookName): int
+    public function run(string $hookName): array
     {
         if (!array_key_exists($hookName, $this->hookRuntimes)) {
             throw new \RuntimeException(
