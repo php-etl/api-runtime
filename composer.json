@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Kiboko\\Component\\Runtime\\Api\\": "src/"
+            "Kiboko\\Component\\Runtime\\API\\": "src/"
         }
     },
     "require": {

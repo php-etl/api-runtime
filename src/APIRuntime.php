@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Kiboko\Component\Runtime\Api;
+namespace Kiboko\Component\Runtime\API;
 
 use Kiboko\Component\Runtime\Hook\HookRuntimeInterface;
 
-class ApiRuntime implements ApiRuntimeInterface
+class APIRuntime implements ApiRuntimeInterface
 {
     private array $hookRuntimes = [];
 

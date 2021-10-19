@@ -1,10 +1,10 @@
 <?php
 
-namespace Kiboko\Component\Runtime\Api;
+namespace Kiboko\Component\Runtime\API;
 
 use Kiboko\Component\Runtime\Hook\HookRuntimeInterface;
 
-interface ApiRuntimeInterface
+interface APIRuntimeInterface
 {
     public function addHookRuntime(string $hookName, HookRuntimeInterface $hookRuntime): self;
     public function feed(string $hookName, ...$data): self;
