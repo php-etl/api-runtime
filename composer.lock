@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b173ca79beecba55be84e565ebb4c5a",
+    "content-hash": "90f3f68438707221d42568a9507bea69",
     "packages": [
         {
             "name": "php-etl/bucket-contracts",
@@ -12,19 +12,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/bucket-contracts.git",
-                "reference": "e96726f9b89dea7308482fa6c2ce4db0757960ce"
+                "reference": "d6fec2fdba9b1f4d658402e3a7b1177d4406928b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/e96726f9b89dea7308482fa6c2ce4db0757960ce",
-                "reference": "e96726f9b89dea7308482fa6c2ce4db0757960ce",
+                "url": "https://api.github.com/repos/php-etl/bucket-contracts/zipball/d6fec2fdba9b1f4d658402e3a7b1177d4406928b",
+                "reference": "d6fec2fdba9b1f4d658402e3a7b1177d4406928b",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.0",
+                "friendsofphp/php-cs-fixer": "^3.38",
                 "phpstan/phpstan": "^1.10",
                 "rector/rector": "^0.15"
             },
@@ -32,7 +32,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.2.x-dev"
+                    "dev-main": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -57,9 +57,9 @@
             "description": "This library describes contracts for the data-interchange buckets.",
             "support": {
                 "issues": "https://github.com/php-etl/bucket-contracts/issues",
-                "source": "https://github.com/php-etl/bucket-contracts/tree/v0.2.0"
+                "source": "https://github.com/php-etl/bucket-contracts/tree/main"
             },
-            "time": "2023-04-03T12:42:10+00:00"
+            "time": "2023-11-16T14:02:42+00:00"
         },
         {
             "name": "php-etl/hook-runtime",
@@ -67,24 +67,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/hook-runtime.git",
-                "reference": "11fa39cd51fbac6daa8ddb81e3d76a80a43298f9"
+                "reference": "2eee14ea177b38123ca5c24c69201987311c6a98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/hook-runtime/zipball/11fa39cd51fbac6daa8ddb81e3d76a80a43298f9",
-                "reference": "11fa39cd51fbac6daa8ddb81e3d76a80a43298f9",
+                "url": "https://api.github.com/repos/php-etl/hook-runtime/zipball/2eee14ea177b38123ca5c24c69201987311c6a98",
+                "reference": "2eee14ea177b38123ca5c24c69201987311c6a98",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2",
-                "php-etl/pipeline-contracts": "0.4.*",
+                "php-etl/pipeline-contracts": "0.5.*",
                 "psr/container": "^1.0"
             },
             "default-branch": true,
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.2.x-dev"
+                    "dev-main": "0.3.x-dev"
                 }
             },
             "autoload": {
@@ -105,9 +105,9 @@
             "description": "This library allows you to use the hook runtime",
             "support": {
                 "issues": "https://github.com/php-etl/hook-runtime/issues",
-                "source": "https://github.com/php-etl/hook-runtime/tree/v0.2.0"
+                "source": "https://github.com/php-etl/hook-runtime/tree/main"
             },
-            "time": "2023-08-22T07:49:26+00:00"
+            "time": "2023-11-16T15:20:14+00:00"
         },
         {
             "name": "php-etl/pipeline-contracts",
@@ -115,21 +115,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/pipeline-contracts.git",
-                "reference": "5a37ebe518d4d85aa964c74b9da068d29e2e9b92"
+                "reference": "3bc148042c060119225a7b26265322198e9b572d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/pipeline-contracts/zipball/5a37ebe518d4d85aa964c74b9da068d29e2e9b92",
-                "reference": "5a37ebe518d4d85aa964c74b9da068d29e2e9b92",
+                "url": "https://api.github.com/repos/php-etl/pipeline-contracts/zipball/3bc148042c060119225a7b26265322198e9b572d",
+                "reference": "3bc148042c060119225a7b26265322198e9b572d",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2",
-                "php-etl/bucket-contracts": "0.2.*",
+                "php-etl/bucket-contracts": "0.3.*",
                 "php-etl/satellite-contracts": "0.1.*"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.0",
+                "friendsofphp/php-cs-fixer": "^3.38",
                 "phpstan/phpstan": "^1.10",
                 "rector/rector": "^0.15"
             },
@@ -137,7 +137,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "0.4.x-dev"
+                    "dev-main": "0.5.x-dev"
                 }
             },
             "autoload": {
@@ -162,9 +162,9 @@
             "description": "This library describes contracts for the Extract-Transform-Load pattern.",
             "support": {
                 "issues": "https://github.com/php-etl/pipeline-contracts/issues",
-                "source": "https://github.com/php-etl/pipeline-contracts/tree/v0.4.2"
+                "source": "https://github.com/php-etl/pipeline-contracts/tree/main"
             },
-            "time": "2023-06-12T09:38:03+00:00"
+            "time": "2023-11-16T14:04:31+00:00"
         },
         {
             "name": "php-etl/satellite-contracts",
@@ -172,19 +172,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-etl/satellite-contracts.git",
-                "reference": "1d2bc6822bfdb3efc6a1f490e706db995c99ef41"
+                "reference": "c7225e02eccd7351f5fb7888b394906e99dcabe6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-etl/satellite-contracts/zipball/1d2bc6822bfdb3efc6a1f490e706db995c99ef41",
-                "reference": "1d2bc6822bfdb3efc6a1f490e706db995c99ef41",
+                "url": "https://api.github.com/repos/php-etl/satellite-contracts/zipball/c7225e02eccd7351f5fb7888b394906e99dcabe6",
+                "reference": "c7225e02eccd7351f5fb7888b394906e99dcabe6",
                 "shasum": ""
             },
             "require": {
                 "php": "^8.2"
             },
             "require-dev": {
-                "rector/rector": "^0.15.0"
+                "rector/rector": "^0.15"
             },
             "default-branch": true,
             "type": "library",
@@ -215,9 +215,9 @@
             "description": "This library describes contracts for defining satellite formats",
             "support": {
                 "issues": "https://github.com/php-etl/satellite-contracts/issues",
-                "source": "https://github.com/php-etl/satellite-contracts/tree/v0.1.0"
+                "source": "https://github.com/php-etl/satellite-contracts/tree/main"
             },
-            "time": "2023-04-18T13:53:22+00:00"
+            "time": "2023-11-16T14:04:49+00:00"
         },
         {
             "name": "psr/container",

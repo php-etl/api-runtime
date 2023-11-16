@@ -17,13 +17,13 @@
     },
     "require": {
         "php": "^8.2",
-        "php-etl/pipeline-contracts": "0.4.*",
+        "php-etl/pipeline-contracts": "0.5.*",
         "psr/container": "^1.0",
-        "php-etl/hook-runtime": "0.2.*"
+        "php-etl/hook-runtime": "0.3.*"
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "0.2.x-dev"
+            "dev-main": "0.3.x-dev"
         }
     }
 }
